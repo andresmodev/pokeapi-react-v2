@@ -1,0 +1,41 @@
+.searchInput {
+  padding: 0.8rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.visuallyHidden {
+  color: rgb(59, 59, 59);
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-family: var(--font-title);
+  letter-spacing: 2px;
+}
+
+.searchInput input {
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  width: 340px;
+  color: aliceblue;
+
+  background-color: rgba(82, 80, 80, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.searchInput input::placeholder {
+  color: aliceblue;
+}
+
+@media (max-width: 540px) {
+  .searchInput {
+    flex-direction: column;
+    padding: 0.8 1rem;
+  }
+
+  .searchInput input {
+    width: 100%;
+  }
+}

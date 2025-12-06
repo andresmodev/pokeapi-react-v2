@@ -1,0 +1,79 @@
+.icon {
+  border-radius: 100%;
+  outline: 1px solid yellow;
+  width: 24px;
+  padding: 0.3rem;
+}
+
+/* === types === */
+.fire {
+  background-color: #ff9d55;
+}
+
+.water {
+  background-color: #5090d6;
+}
+
+.bug {
+  background-color: #91c125;
+}
+
+.dark {
+  background-color: #5c5563;
+}
+
+.dragon {
+  background-color: #0b6dc4;
+}
+
+.electric {
+  background-color: #f5d23d;
+}
+
+.fairy {
+  background-color: #e890e6;
+}
+
+.fighting {
+  background-color: #cc426b;
+}
+
+.flying {
+  background-color: #91a9da;
+}
+
+.ghost {
+  background-color: #5369ac;
+}
+
+.grass {
+  background-color: #62bc5a;
+}
+
+.ground {
+  background-color: #db7544;
+}
+
+.ice {
+  background-color: #71d0b9;
+}
+
+.normal {
+  background-color: #9099a3;
+}
+
+.steel {
+  background-color: #5d8fa4;
+}
+
+.poison {
+  background-color: #ab6bc6;
+}
+
+.rock {
+  background-color: #c8b68c;
+}
+
+.psychic {
+  background-color: #f87175;
+}

@@ -1,0 +1,31 @@
+.container {
+  border: 1px solid #f2c0c0;
+  background: #fff6f6;
+  color: #7a1f1f;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-flex;
+  gap: 12px;
+  align-items: center;
+  max-width: 100%;
+}
+
+.message {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.retry {
+  background: #7a1f1f;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.retry:hover {
+  opacity: 0.95;
+}
