@@ -83,6 +83,8 @@ npm run dev
 
 La aplicación será desplegada en Vercel, con URL pública disponible próximamente.
 
+- [Deploy](https://pokeapi-react-v2.vercel.app/)
+
 ---
 
 ## 🎨 Créditos
